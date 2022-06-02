@@ -18,7 +18,7 @@ jbang export portable Main.java
 ```
 
 ## Building native image from JAR file and `lib` using GraalVM
-To building native image first build portable JAR file. Then convert it to native with GraalVM.
+To build native image first build portable JAR file. Then convert it to native with GraalVM.
 ```shell
 $GRAALVM_HOME/bin/native-image -jar Main.jar MainApp -cp lib
 ```
